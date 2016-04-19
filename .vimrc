@@ -134,6 +134,6 @@ let g:OmniSharp_server_type = 'roslyn'
 nnoremap <leader>ss :OmniSharpStartServer<cr>
 nnoremap <leader>sp :OmniSharpStopServer<cr>
 
-let g:UltiSnipsExpandTrigger="Q"
+let g:UltiSnipsExpandTrigger="<leader>q"
 let g:UltiSnipsJumpForwardTrigger="<c-d>"
 let g:UltiSnipsJumpBackwardTrigger="<c-a>"
