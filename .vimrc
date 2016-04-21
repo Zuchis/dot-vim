@@ -39,7 +39,7 @@ filetype plugin indent on
 
 set term=xterm-256color
 set t_Co=256
-colorscheme wombat256i
+colorscheme molokai
 
 syntax on
 
@@ -47,6 +47,9 @@ set number
 set ruler
 set nowrap
 set noshowmatch
+
+" No more ':W' annoyance
+cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
 
 set tabstop=8                   "A tab is 8 spaces
 set expandtab                   "Always uses spaces instead of tabs
@@ -70,7 +73,7 @@ noremap   <Right>  <NOP>
 map <C-n> :NERDTreeToggle<CR>
 
 " Uses C-a as shortcut for tasglist
-map <C-a> :TlistToggle<CR>
+map <C-q> :TlistToggle<CR>
 
 " Closes nerdtree if it is the only window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
@@ -129,7 +132,7 @@ augroup omnisharp_commands
 
 augroup END
 
-let g:OmniSharp_server_type = 'roslyn'
+"let g:OmniSharp_server_type = 'roslyn'
 
 nnoremap <leader>ss :OmniSharpStartServer<cr>
 nnoremap <leader>sp :OmniSharpStopServer<cr>
