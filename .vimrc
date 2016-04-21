@@ -7,12 +7,10 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-scripts/a.vim'
 Plugin 'eagletmt/neco-ghc'
 Plugin 'ddollar/nerdcommenter'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'junegunn/rainbow_parentheses.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/taglist.vim'
@@ -25,6 +23,8 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'nvie/vim-flake8'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'anyakichi/vim-surround'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'OmniSharp/omnisharp-vim'
 
 
 call vundle#end()
