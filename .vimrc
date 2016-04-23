@@ -10,13 +10,14 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/a.vim'
 Plugin 'eagletmt/neco-ghc'
 Plugin 'ddollar/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'junegunn/rainbow_parentheses.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
-Plugin 'Shougo/unite.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-dispatch'
@@ -161,3 +162,11 @@ omap / <Plug>(easymotion-tn)
 
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
+
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_server_use_vim_stdout = 0
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'
+
+nnoremap <leader><leader>i :PluginInstall<cr>
+
