@@ -21,6 +21,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'bling/vim-bufferline'
 Plugin 'vim-airline/vim-airline'
+Plugin 'jlanzarotta/bufexplorer'
 Plugin 'tpope/vim-dispatch'
 Plugin 'nvie/vim-flake8'
 Plugin 'airblade/vim-gitgutter'
@@ -177,3 +178,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
+
+"Swap between previous/next/last used buffers
+nnoremap <Leader>n :bp<CR>
+nnoremap <Leader>m :bn<CR>
+nnoremap <Leader>g :e#<CR>
