@@ -19,6 +19,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'bling/vim-bufferline'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-dispatch'
 Plugin 'nvie/vim-flake8'
@@ -74,7 +75,7 @@ noremap   <Right>  <NOP>
 " Uses C-n as shortcut for nerd tree
 map <C-n> :NERDTreeToggle<CR>
 
-" Uses C-a as shortcut for tasglist
+" Uses C-q as shortcut for tasglist
 map <C-q> :TlistToggle<CR>
 
 " Closes nerdtree if it is the only window
@@ -170,3 +171,9 @@ let g:ycm_server_log_level = 'debug'
 
 nnoremap <leader><leader>i :PluginInstall<cr>
 
+"Automatically displays all buffers when there's only one tab open.
+
+let g:airline#extensions#tabline#enabled = 1
+
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
