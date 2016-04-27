@@ -170,6 +170,8 @@ let g:ycm_server_use_vim_stdout = 0
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 nnoremap <leader><leader>i :PluginInstall<cr>
 
@@ -179,6 +181,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
+set laststatus=2
 
 "Swap between previous/next/last used buffers
 nnoremap <Leader>n :bp<CR>
