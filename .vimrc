@@ -144,6 +144,8 @@ nnoremap <leader>sp :OmniSharpStopServer<cr>
 let g:UltiSnipsExpandTrigger="<leader>q"
 let g:UltiSnipsJumpForwardTrigger="<c-d>"
 let g:UltiSnipsJumpBackwardTrigger="<c-a>"
+let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
+let g:UltiSnipsEditSplit="vertical"
 
 " Easymotion bindings
 map <Leader> <Plug>(easymotion-prefix)
