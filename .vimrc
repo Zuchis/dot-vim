@@ -194,3 +194,6 @@ set laststatus=2
 nnoremap <Leader>n :bp<CR>
 nnoremap <Leader>m :bn<CR>
 nnoremap <Leader>g :e#<CR>
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
