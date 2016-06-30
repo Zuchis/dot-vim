@@ -7,14 +7,14 @@ snippet condp
 snippet def
 	(def ${0})
 snippet defm
-	(defmethod ${1:multifn} "${2:doc-string}" ${3:dispatch-val} [${4:args}]
+	(defmethod ${1:multifn} ${2:dispatch-val} [${3:args}]
 		${0})
 snippet defmm
-	(defmulti ${1:name} "${2:doc-string}" ${0:dispatch-fn})
+	(defmulti ${1:name} ${0:dispatch-fn})
 snippet defma
-	(defmacro ${1:name} "${2:doc-string}" ${0:dispatch-fn})
+	(defmacro ${1:name} ${0:dispatch-fn})
 snippet defn
-	(defn ${1:name} "${2:doc-string}" [${3:arg-list}]
+	(defn ${1:name} [${2:arg-list}]
 		${0})
 snippet defp
 	(defprotocol ${1:name}
