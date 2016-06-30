@@ -29,6 +29,10 @@ Plugin 'anyakichi/vim-surround'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'OmniSharp/omnisharp-vim'
+Plugin 'tpope/vim-projectionist'
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-salve'
+Plugin 'tpope/vim-fireplace'
 
 
 call vundle#end()
