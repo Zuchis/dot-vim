@@ -32,6 +32,7 @@ Plugin 'tpope/vim-projectionist'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-salve'
 Plugin 'tpope/vim-fireplace'
+Plugin 'vim-scripts/OmniCppComplete'
 
 
 call vundle#end()
