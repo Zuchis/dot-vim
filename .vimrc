@@ -33,6 +33,7 @@ Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-salve'
 Plugin 'tpope/vim-fireplace'
 Plugin 'vim-scripts/OmniCppComplete'
+Plugin 'myusuf3/numbers.vim'
 
 
 call vundle#end()
@@ -220,3 +221,6 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 " automatically open and close the popup menu / preview window
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
+
+nnoremap <Leader>A :NumbersToggle<CR>
+"nnoremap <Leader>S :NumbersOnOff<CR>
