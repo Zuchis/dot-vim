@@ -206,7 +206,7 @@ set tags+=~/.vim/tags/sdl
 "set tags+=~/.vim/tags/qt4
 
 " build tags of your own project with Ctrl-F12
-map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+nnoremap <Leader><Leader>c :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " OmniCppComplete
 let OmniCpp_NamespaceSearch = 1
