@@ -222,5 +222,5 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 
-nnoremap <Leader>A :NumbersToggle<CR>
-"nnoremap <Leader>S :NumbersOnOff<CR>
+nnoremap <F3> :NumbersToggle<CR>
+"nnoremap <F4> :NumbersOnOff<CR>
