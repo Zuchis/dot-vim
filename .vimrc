@@ -34,6 +34,10 @@ Plugin 'tpope/vim-salve'
 Plugin 'tpope/vim-fireplace'
 Plugin 'vim-scripts/OmniCppComplete'
 Plugin 'myusuf3/numbers.vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'ternjs/tern_for_vim'
 
 
 call vundle#end()
