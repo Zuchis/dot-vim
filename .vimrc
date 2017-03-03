@@ -38,6 +38,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'ternjs/tern_for_vim'
+Plugin 'racer-rust/vim-racer'
 
 
 call vundle#end()
@@ -228,3 +229,4 @@ set completeopt=menuone,menu,longest,preview
 
 nnoremap <F3> :NumbersToggle<CR>
 "nnoremap <F4> :NumbersOnOff<CR>
+"
