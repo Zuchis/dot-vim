@@ -230,3 +230,5 @@ set completeopt=menuone,menu,longest,preview
 nnoremap <F3> :NumbersToggle<CR>
 "nnoremap <F4> :NumbersOnOff<CR>
 "
+set hidden
+let g:racer_cmd = "~/.cargo/bin"
