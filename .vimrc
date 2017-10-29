@@ -233,4 +233,5 @@ nnoremap <F3> :NumbersToggle<CR>
 "nnoremap <F4> :NumbersOnOff<CR>
 "
 set hidden
-let g:racer_cmd = "~/.cargo/bin"
+let g:racer_cmd = "/home/zuchis/.cargo/bin"
+let g:ycm_rust_src_path = '/home/zuchis/.multirust/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src'
