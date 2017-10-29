@@ -40,6 +40,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'racer-rust/vim-racer'
 Plugin 'rust-lang/rust.vim'
+Plugin 'tikhomirov/vim-glsl'
 
 
 call vundle#end()
